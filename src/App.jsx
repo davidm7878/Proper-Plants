@@ -24,8 +24,8 @@ export default function App() {
   }
 
   function RemoveFromCart(plant) {
-    setCart((prev) =>
-      prev
+    setCart((empty) =>
+      empty
         .map((item) =>
           item.id === plant.id ? { ...item, quantity: item.quantity - 1 } : item
         )
