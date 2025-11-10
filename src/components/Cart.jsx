@@ -1,5 +1,3 @@
-import PLANTS from "../data";
-
 export default function Cart({ cart, AddToCart, RemoveFromCart }) {
   if (!cart || cart.length === 0) {
     return (
