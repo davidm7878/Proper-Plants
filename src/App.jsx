@@ -43,7 +43,6 @@ export default function App() {
 
         <Cart
           cart={cart}
-          setCart={setCart}
           AddToCart={AddToCart}
           RemoveFromCart={RemoveFromCart}
         />
